@@ -3,6 +3,10 @@ import requests
 import xml.etree.ElementTree as ET
 import json
 from datetime import datetime, timedelta, timezone
+from urllib3.exceptions import InsecureRequestWarning
+
+# Отключаем предупреждения SSL
+requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 
 
 def extract_level(level_str):
@@ -33,25 +37,32 @@ def determine_remark(level_str):
 
 
 def fetch_xml_data():
-    """Загружает XML данные из URL, указанного в переменных окружения"""
+    """Загружает XML данные из URL (с поддержкой прокси и User-Agent для обхода 403)"""
     try:
         url = os.getenv("XML_DATA_URL")
         if not url:
             raise ValueError("XML_DATA_URL не указан в переменных окружения")
 
+        use_proxy = os.getenv("USE_PROXY", "false").lower() == "true"
         proxy_settings = {
             "http": os.getenv("HTTP_PROXY"),
             "https": os.getenv("HTTPS_PROXY"),
-        } if os.getenv("USE_PROXY", "false").lower() == "true" else None
+        } if use_proxy else None
+
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
 
         response = requests.get(
             url,
+            headers=headers,
             proxies=proxy_settings,
-            timeout=10,
+            timeout=15,
             verify=False
         )
         response.raise_for_status()
         return response.text
+
     except requests.exceptions.RequestException as e:
         print(f"Ошибка при загрузке данных: {e}")
         return None
@@ -61,10 +72,11 @@ def fetch_xml_data():
 
 
 def process_tra_zone(tra, target_date):
-    """Обрабатывает зону TRA и возвращает данные, если активна в target_date"""
+    """Обрабатывает зону TRA, если её zc содержит UNNT, UNKL или UIII"""
     zc = tra.find("zc").text.strip() if tra.find("zc") is not None else ""
 
-    if "UNNT" not in zc:
+    # Фильтрация по кодам зон
+    if not any(code in zc for code in ["UNNT", "UNKL", "UIII"]):
         return None
 
     area_code = tra.find("areacode").text.strip() if tra.find("areacode") is not None else ""
@@ -101,9 +113,7 @@ def process_tra_zone(tra, target_date):
 
 
 def main():
-    # Загружаем XML данные
     xml_data = fetch_xml_data()
-
     if not xml_data:
         print("Не удалось загрузить XML данные.")
         return
@@ -115,13 +125,10 @@ def main():
         areas = []
 
         for tra in root.findall("tra"):
-            today_data = process_tra_zone(tra, today)
-            if today_data:
-                areas.append(today_data)
-
-            tomorrow_data = process_tra_zone(tra, tomorrow)
-            if tomorrow_data:
-                areas.append(tomorrow_data)
+            for target_date in [today, tomorrow]:
+                data = process_tra_zone(tra, target_date)
+                if data:
+                    areas.append(data)
 
         current_time = datetime.now(timezone.utc)
         valid_wef = current_time.strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -141,6 +148,9 @@ def main():
 
         print("Данные успешно сохранены в output.json")
 
+    except ET.ParseError as e:
+        print(f"Ошибка парсинга XML: {e}")
+        print("Убедитесь, что URL возвращает валидный XML.")
     except Exception as e:
         print(f"Ошибка при обработке XML данных: {e}")
 
