@@ -7,7 +7,6 @@ from urllib3.exceptions import InsecureRequestWarning
 
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 
-
 def extract_level(level_str):
     if not level_str:
         return 0
