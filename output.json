@@ -1,8 +1,8 @@
 {
     "notice_info": {
-        "valid_wef": "2026-02-10T09:57:47Z",
-        "valid_til": "2026-02-10T10:57:47Z",
-        "released_on": "2026-02-10T09:57:47Z"
+        "valid_wef": "2026-02-10T13:06:10Z",
+        "valid_til": "2026-02-10T14:06:10Z",
+        "released_on": "2026-02-10T13:06:10Z"
     },
     "areas": [
         {
@@ -90,28 +90,10 @@
             "name": "UNR1144",
             "minimum_fl": 0,
             "maximum_fl": 22,
-            "start_datetime": "2026-02-10T07:00:00Z",
-            "end_datetime": "2026-02-10T10:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-02-10"
-        },
-        {
-            "name": "UNR1144",
-            "minimum_fl": 0,
-            "maximum_fl": 22,
             "start_datetime": "2026-02-11T07:00:00Z",
             "end_datetime": "2026-02-11T10:00:00Z",
             "remark": "MAMSL",
             "active_date": "2026-02-11"
-        },
-        {
-            "name": "UNR1153",
-            "minimum_fl": 0,
-            "maximum_fl": 42,
-            "start_datetime": "2026-02-10T04:00:00Z",
-            "end_datetime": "2026-02-10T11:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-02-10"
         },
         {
             "name": "UNR1153",
@@ -126,28 +108,10 @@
             "name": "UNR1154",
             "minimum_fl": 0,
             "maximum_fl": 65,
-            "start_datetime": "2026-02-10T03:00:00Z",
-            "end_datetime": "2026-02-10T11:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-02-10"
-        },
-        {
-            "name": "UNR1154",
-            "minimum_fl": 0,
-            "maximum_fl": 65,
             "start_datetime": "2026-02-11T03:00:00Z",
             "end_datetime": "2026-02-11T11:00:00Z",
             "remark": "MAMSL",
             "active_date": "2026-02-11"
-        },
-        {
-            "name": "UNR1155",
-            "minimum_fl": 0,
-            "maximum_fl": 65,
-            "start_datetime": "2026-02-10T03:00:00Z",
-            "end_datetime": "2026-02-10T11:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-02-10"
         },
         {
             "name": "UNR1155",
@@ -171,28 +135,10 @@
             "name": "UNR1181",
             "minimum_fl": 0,
             "maximum_fl": 52,
-            "start_datetime": "2026-02-10T04:00:00Z",
-            "end_datetime": "2026-02-10T12:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-02-10"
-        },
-        {
-            "name": "UNR1181",
-            "minimum_fl": 0,
-            "maximum_fl": 52,
             "start_datetime": "2026-02-11T04:00:00Z",
             "end_datetime": "2026-02-11T12:00:00Z",
             "remark": "MAMSL",
             "active_date": "2026-02-11"
-        },
-        {
-            "name": "UNR1182",
-            "minimum_fl": 0,
-            "maximum_fl": 52,
-            "start_datetime": "2026-02-10T04:00:00Z",
-            "end_datetime": "2026-02-10T12:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-02-10"
         },
         {
             "name": "UNR1182",
@@ -256,15 +202,6 @@
             "end_datetime": "2026-02-11T23:59:00Z",
             "remark": "FL, MAMSL",
             "active_date": "2026-02-11"
-        },
-        {
-            "name": "UNR1229",
-            "minimum_fl": 0,
-            "maximum_fl": 70,
-            "start_datetime": "2026-02-10T04:00:00Z",
-            "end_datetime": "2026-02-10T11:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-02-10"
         },
         {
             "name": "UNR1229",
@@ -342,15 +279,6 @@
             "name": "UNR1137",
             "minimum_fl": 0,
             "maximum_fl": 19,
-            "start_datetime": "2026-02-10T03:00:00Z",
-            "end_datetime": "2026-02-10T11:00:00Z",
-            "remark": "MAGL",
-            "active_date": "2026-02-10"
-        },
-        {
-            "name": "UNR1137",
-            "minimum_fl": 0,
-            "maximum_fl": 19,
             "start_datetime": "2026-02-11T03:00:00Z",
             "end_datetime": "2026-02-11T11:00:00Z",
             "remark": "MAGL",
@@ -373,15 +301,6 @@
             "end_datetime": "2026-02-11T22:00:00Z",
             "remark": "MAMSL",
             "active_date": "2026-02-11"
-        },
-        {
-            "name": "UNR1158",
-            "minimum_fl": 0,
-            "maximum_fl": 22,
-            "start_datetime": "2026-02-10T03:00:00Z",
-            "end_datetime": "2026-02-10T10:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-02-10"
         },
         {
             "name": "UNR1158",
@@ -432,28 +351,10 @@
             "name": "UNR1250",
             "minimum_fl": 0,
             "maximum_fl": 26,
-            "start_datetime": "2026-02-10T05:00:00Z",
-            "end_datetime": "2026-02-10T10:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-02-10"
-        },
-        {
-            "name": "UNR1250",
-            "minimum_fl": 0,
-            "maximum_fl": 26,
             "start_datetime": "2026-02-11T05:00:00Z",
             "end_datetime": "2026-02-11T10:00:00Z",
             "remark": "MAMSL",
             "active_date": "2026-02-11"
-        },
-        {
-            "name": "UNR1272",
-            "minimum_fl": 0,
-            "maximum_fl": 26,
-            "start_datetime": "2026-02-10T07:00:00Z",
-            "end_datetime": "2026-02-10T10:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-02-10"
         },
         {
             "name": "UNR1272",
@@ -495,15 +396,6 @@
             "name": "UNR1277",
             "minimum_fl": 0,
             "maximum_fl": 21,
-            "start_datetime": "2026-02-10T07:00:00Z",
-            "end_datetime": "2026-02-10T10:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-02-10"
-        },
-        {
-            "name": "UNR1277",
-            "minimum_fl": 0,
-            "maximum_fl": 21,
             "start_datetime": "2026-02-11T07:00:00Z",
             "end_datetime": "2026-02-11T10:00:00Z",
             "remark": "MAMSL",
@@ -513,28 +405,10 @@
             "name": "UNR1917",
             "minimum_fl": 0,
             "maximum_fl": 6,
-            "start_datetime": "2026-02-10T03:00:00Z",
-            "end_datetime": "2026-02-10T11:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-02-10"
-        },
-        {
-            "name": "UNR1917",
-            "minimum_fl": 0,
-            "maximum_fl": 6,
             "start_datetime": "2026-02-11T03:00:00Z",
             "end_datetime": "2026-02-11T11:00:00Z",
             "remark": "MAMSL",
             "active_date": "2026-02-11"
-        },
-        {
-            "name": "UNR1934",
-            "minimum_fl": 0,
-            "maximum_fl": 26,
-            "start_datetime": "2026-02-10T03:00:00Z",
-            "end_datetime": "2026-02-10T11:00:00Z",
-            "remark": "MAGL",
-            "active_date": "2026-02-10"
         },
         {
             "name": "UNR1934",
@@ -549,28 +423,10 @@
             "name": "UNR1935",
             "minimum_fl": 0,
             "maximum_fl": 29,
-            "start_datetime": "2026-02-10T03:00:00Z",
-            "end_datetime": "2026-02-10T11:00:00Z",
-            "remark": "MAGL",
-            "active_date": "2026-02-10"
-        },
-        {
-            "name": "UNR1935",
-            "minimum_fl": 0,
-            "maximum_fl": 29,
             "start_datetime": "2026-02-11T03:00:00Z",
             "end_datetime": "2026-02-11T11:00:00Z",
             "remark": "MAGL",
             "active_date": "2026-02-11"
-        },
-        {
-            "name": "UNR1937",
-            "minimum_fl": 0,
-            "maximum_fl": 31,
-            "start_datetime": "2026-02-10T05:00:00Z",
-            "end_datetime": "2026-02-10T10:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-02-10"
         },
         {
             "name": "UNR1937",
@@ -580,15 +436,6 @@
             "end_datetime": "2026-02-11T10:00:00Z",
             "remark": "MAMSL",
             "active_date": "2026-02-11"
-        },
-        {
-            "name": "UNR1939",
-            "minimum_fl": 0,
-            "maximum_fl": 29,
-            "start_datetime": "2026-02-10T05:00:00Z",
-            "end_datetime": "2026-02-10T10:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-02-10"
         },
         {
             "name": "UNR1939",
@@ -616,15 +463,6 @@
             "end_datetime": "2026-02-11T17:00:00Z",
             "remark": "MAGL",
             "active_date": "2026-02-11"
-        },
-        {
-            "name": "UNR1962",
-            "minimum_fl": 0,
-            "maximum_fl": 29,
-            "start_datetime": "2026-02-10T03:00:00Z",
-            "end_datetime": "2026-02-10T10:30:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-02-10"
         },
         {
             "name": "UNR1962",
@@ -670,15 +508,6 @@
             "end_datetime": "2026-02-11T19:00:00Z",
             "remark": "MAGL",
             "active_date": "2026-02-11"
-        },
-        {
-            "name": "UNR1987",
-            "minimum_fl": 0,
-            "maximum_fl": 29,
-            "start_datetime": "2026-02-10T05:00:00Z",
-            "end_datetime": "2026-02-10T10:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-02-10"
         },
         {
             "name": "UNR1987",
