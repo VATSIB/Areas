@@ -1,0 +1,64 @@
+name: Update SIGMET Data
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  schedule:
+    - cron: '0 */3 * * *'  # Каждые 3 часа
+
+permissions:
+  contents: write  # Нужно для git push
+
+jobs:
+  update-sigmet:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: ▶️ Run sigmet_fetch.py
+        env:
+          USE_PROXY: ${{ secrets.USE_PROXY }}        # "true" или "false"
+          HTTP_PROXY: ${{ secrets.HTTP_PROXY }}
+          HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }}
+        run: python sigmet_fetch.py
+
+      - name: ✅ Verify sigmet.json
+        run: |
+          if [[ ! -f sigmet.json ]]; then
+            echo "❌ sigmet.json не создан"
+            exit 1
+          fi
+          if [[ ! -s sigmet.json ]]; then
+            echo "❌ sigmet.json пуст"
+            exit 1
+          fi
+          echo "✅ sigmet.json успешно создан:"
+          cat sigmet.json
+
+      - name: 💾 Commit and push sigmet.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sigmet.json
+          git diff --staged --quiet || git commit -m "chore: update SIGMET data $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: 📤 Upload as artifact (for debugging)
+        uses: actions/upload-artifact@v4
+        with:
+          name: sigmet-output
+          path: sigmet.json
