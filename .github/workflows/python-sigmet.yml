@@ -34,7 +34,7 @@ jobs:
           USE_PROXY: ${{ secrets.USE_PROXY }}        # "true" или "false"
           HTTP_PROXY: ${{ secrets.HTTP_PROXY }}
           HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }}
-        run: python sigmet_fetch.py
+        run: python SIGMET.py
 
       - name: ✅ Verify sigmet.json
         run: |
