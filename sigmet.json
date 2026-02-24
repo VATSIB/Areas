@@ -1,8 +1,8 @@
 {
-    "lastFetch": "2026-02-24T18:43:19.059807Z",
+    "lastFetch": "2026-02-24T21:23:16.578143Z",
     "FIR": {
         "UHMM": {
-            "rawString": "WSRA31 RUMG 241621\nUHMM SIGMET M04 VALID 241630/242000 UHMM-\nUHMM MAGADAN FIR SEV TURB FCST WI N7235 E17600 - N7200 W16858 -\nN6500 W16858 - N6403 W17212 - N6400 W17500 - N6500 W17600 -\nN6800 W17600 - N7000 E17600 - N7235 E17600 SFC/FL150 STNR NC=",
+            "rawString": "WSRA31 RUMG 242030\nUHMM SIGMET M05 VALID 242030/250000 UHMM-\nUHMM MAGADAN FIR SEV TURB FCST WI N7235 E17600 -\nN7200 W16858 - N6500 W16858 - N6400 W17500 -\nN6500 W17600 - N6500 E18000 - N6131 E18000 -\nN6220 E17300 - N6400 E17300 - N6630 E17100 -\nN6730 E17100 - N6730 E17650 - N6700 E17900 -\nN6700 W17600 - N6800 W17600 - N7000 E17600 -\nN7235 E17600 SFC/FL150 STNR NC=",
             "coordinates": [
                 {
                     "lat": 72.583,
@@ -17,15 +17,47 @@
                     "lon": 191.033
                 },
                 {
-                    "lat": 64.05,
-                    "lon": 187.8
-                },
-                {
                     "lat": 64,
                     "lon": 185
                 },
                 {
                     "lat": 65,
+                    "lon": 184
+                },
+                {
+                    "lat": 65,
+                    "lon": 180
+                },
+                {
+                    "lat": 61.517,
+                    "lon": 180
+                },
+                {
+                    "lat": 62.333,
+                    "lon": 173
+                },
+                {
+                    "lat": 64,
+                    "lon": 173
+                },
+                {
+                    "lat": 66.5,
+                    "lon": 171
+                },
+                {
+                    "lat": 67.5,
+                    "lon": 171
+                },
+                {
+                    "lat": 67.5,
+                    "lon": 176.833
+                },
+                {
+                    "lat": 67,
+                    "lon": 179
+                },
+                {
+                    "lat": 67,
                     "lon": 184
                 },
                 {
