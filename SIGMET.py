@@ -2,7 +2,7 @@ import requests
 import json
 from datetime import datetime
 
-FIR_LIST = ["UHMM", "UNNT", "UNKL", "UIII"]  # список FIR
+FIR_LIST = ["UUWV", "UNNT", "UNKL", "UIII"]  # список FIR
 URL = "https://aviationweather.gov/api/data/isigmet?format=json"
 
 def fetch_sigmet_multi(fir_list):
@@ -71,3 +71,4 @@ for fir_id, data in sigmet_data.items():
     print(data["lat_line"])
     print(f"{fir_id} lon:")
     print(data["lon_line"])
+
