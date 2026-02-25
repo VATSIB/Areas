@@ -1,6 +1,8 @@
 name: Update AUP Data
 
 on:
+push:
+    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
   schedule:
