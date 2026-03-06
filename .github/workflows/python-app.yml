@@ -56,7 +56,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add output.json
           git diff --staged --quiet || git commit -m "chore: update AUP data $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push
+          git push --force-with-lease
 
       - name: 📤 Upload as artifact (for debugging)
         uses: actions/upload-artifact@v4
