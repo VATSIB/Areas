@@ -1,19 +1,10 @@
 {
     "notice_info": {
-        "valid_wef": "2026-03-15T15:32:37Z",
-        "valid_til": "2026-03-15T16:32:37Z",
-        "released_on": "2026-03-15T15:32:37Z"
+        "valid_wef": "2026-03-15T18:44:46Z",
+        "valid_til": "2026-03-15T19:44:46Z",
+        "released_on": "2026-03-15T18:44:46Z"
     },
     "areas": [
-        {
-            "name": "UNR1104",
-            "minimum_fl": 0,
-            "maximum_fl": 200,
-            "start_datetime": "2026-03-15T00:00:00Z",
-            "end_datetime": "2026-03-15T16:50:00Z",
-            "remark": "FL",
-            "active_date": "2026-03-15"
-        },
         {
             "name": "UNR1104",
             "minimum_fl": 0,
@@ -22,15 +13,6 @@
             "end_datetime": "2026-03-16T16:50:00Z",
             "remark": "FL",
             "active_date": "2026-03-16"
-        },
-        {
-            "name": "UNR1112",
-            "minimum_fl": 0,
-            "maximum_fl": 50,
-            "start_datetime": "2026-03-15T00:00:00Z",
-            "end_datetime": "2026-03-15T16:50:00Z",
-            "remark": "FL",
-            "active_date": "2026-03-15"
         },
         {
             "name": "UNR1112",
@@ -184,15 +166,6 @@
             "end_datetime": "2026-03-16T06:00:00Z",
             "remark": "MAMSL",
             "active_date": "2026-03-16"
-        },
-        {
-            "name": "UNR1952",
-            "minimum_fl": 0,
-            "maximum_fl": 360,
-            "start_datetime": "2026-03-15T00:00:00Z",
-            "end_datetime": "2026-03-15T17:00:00Z",
-            "remark": "FL",
-            "active_date": "2026-03-15"
         },
         {
             "name": "UNR1952",
@@ -409,15 +382,6 @@
             "end_datetime": "2026-03-16T10:00:00Z",
             "remark": "MAMSL",
             "active_date": "2026-03-16"
-        },
-        {
-            "name": "UNR1945",
-            "minimum_fl": 0,
-            "maximum_fl": 19,
-            "start_datetime": "2026-03-15T08:00:00Z",
-            "end_datetime": "2026-03-15T17:00:00Z",
-            "remark": "MAGL",
-            "active_date": "2026-03-15"
         },
         {
             "name": "UNR1945",
