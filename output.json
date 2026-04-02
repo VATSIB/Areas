@@ -1,8 +1,8 @@
 {
     "notice_info": {
-        "valid_wef": "2026-04-02T05:05:54Z",
-        "valid_til": "2026-04-02T06:05:54Z",
-        "released_on": "2026-04-02T05:05:54Z"
+        "valid_wef": "2026-04-02T07:18:15Z",
+        "valid_til": "2026-04-02T08:18:15Z",
+        "released_on": "2026-04-02T07:18:15Z"
     },
     "areas": [
         {
@@ -146,15 +146,6 @@
             "maximum_fl": 70,
             "start_datetime": "2026-04-02T04:00:00Z",
             "end_datetime": "2026-04-02T11:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-04-02"
-        },
-        {
-            "name": "UNR1270",
-            "minimum_fl": 0,
-            "maximum_fl": 75,
-            "start_datetime": "2026-04-02T04:00:00Z",
-            "end_datetime": "2026-04-02T06:00:00Z",
             "remark": "MAMSL",
             "active_date": "2026-04-02"
         },
