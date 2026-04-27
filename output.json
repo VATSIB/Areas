@@ -1,8 +1,8 @@
 {
     "notice_info": {
-        "valid_wef": "2026-04-27T14:02:03Z",
-        "valid_til": "2026-04-27T15:02:03Z",
-        "released_on": "2026-04-27T14:02:03Z"
+        "valid_wef": "2026-04-27T16:42:56Z",
+        "valid_til": "2026-04-27T17:42:56Z",
+        "released_on": "2026-04-27T16:42:56Z"
     },
     "areas": [
         {
@@ -58,15 +58,6 @@
             "end_datetime": "2026-04-28T23:59:00Z",
             "remark": "FL",
             "active_date": "2026-04-28"
-        },
-        {
-            "name": "UNR1115",
-            "minimum_fl": 0,
-            "maximum_fl": 270,
-            "start_datetime": "2026-04-27T04:00:00Z",
-            "end_datetime": "2026-04-27T15:59:00Z",
-            "remark": "FL",
-            "active_date": "2026-04-27"
         },
         {
             "name": "UNR1115",
@@ -153,28 +144,10 @@
             "name": "UNR1206",
             "minimum_fl": 65,
             "maximum_fl": 987,
-            "start_datetime": "2026-04-27T01:00:00Z",
-            "end_datetime": "2026-04-27T14:59:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-04-27"
-        },
-        {
-            "name": "UNR1206",
-            "minimum_fl": 65,
-            "maximum_fl": 987,
             "start_datetime": "2026-04-28T01:00:00Z",
             "end_datetime": "2026-04-28T14:59:00Z",
             "remark": "MAMSL",
             "active_date": "2026-04-28"
-        },
-        {
-            "name": "UNR1207",
-            "minimum_fl": 4,
-            "maximum_fl": 260,
-            "start_datetime": "2026-04-27T01:00:00Z",
-            "end_datetime": "2026-04-27T14:59:00Z",
-            "remark": "MAMSL, FL",
-            "active_date": "2026-04-27"
         },
         {
             "name": "UNR1207",
@@ -247,15 +220,6 @@
             "end_datetime": "2026-04-28T10:00:00Z",
             "remark": "MAMSL",
             "active_date": "2026-04-28"
-        },
-        {
-            "name": "UNR1136",
-            "minimum_fl": 0,
-            "maximum_fl": 259,
-            "start_datetime": "2026-04-27T01:00:00Z",
-            "end_datetime": "2026-04-27T19:00:00Z",
-            "remark": "MAGL",
-            "active_date": "2026-04-27"
         },
         {
             "name": "UNR1136",
