@@ -1,8 +1,8 @@
 {
     "notice_info": {
-        "valid_wef": "2026-05-08T03:26:38Z",
-        "valid_til": "2026-05-08T04:26:38Z",
-        "released_on": "2026-05-08T03:26:38Z"
+        "valid_wef": "2026-05-08T07:46:12Z",
+        "valid_til": "2026-05-08T08:46:12Z",
+        "released_on": "2026-05-08T07:46:12Z"
     },
     "areas": [
         {
@@ -123,15 +123,6 @@
             "active_date": "2026-05-08"
         },
         {
-            "name": "UNR1270",
-            "minimum_fl": 0,
-            "maximum_fl": 75,
-            "start_datetime": "2026-05-08T04:00:00Z",
-            "end_datetime": "2026-05-08T06:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-05-08"
-        },
-        {
             "name": "UNR1952",
             "minimum_fl": 0,
             "maximum_fl": 360,
@@ -231,33 +222,6 @@
             "active_date": "2026-05-08"
         },
         {
-            "name": "UNR1196",
-            "minimum_fl": 3,
-            "maximum_fl": 593,
-            "start_datetime": "2026-05-09T03:00:00Z",
-            "end_datetime": "2026-05-09T15:30:00Z",
-            "remark": "MAGL",
-            "active_date": "2026-05-09"
-        },
-        {
-            "name": "UNR1197",
-            "minimum_fl": 32,
-            "maximum_fl": 364,
-            "start_datetime": "2026-05-09T03:00:00Z",
-            "end_datetime": "2026-05-09T15:30:00Z",
-            "remark": "MAGL",
-            "active_date": "2026-05-09"
-        },
-        {
-            "name": "UNR1242",
-            "minimum_fl": 0,
-            "maximum_fl": 14,
-            "start_datetime": "2026-05-08T06:00:00Z",
-            "end_datetime": "2026-05-08T10:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-05-08"
-        },
-        {
             "name": "UNR1250",
             "minimum_fl": 0,
             "maximum_fl": 26,
@@ -310,15 +274,6 @@
             "end_datetime": "2026-05-08T10:00:00Z",
             "remark": "MAMSL",
             "active_date": "2026-05-08"
-        },
-        {
-            "name": "UNR1280",
-            "minimum_fl": 0,
-            "maximum_fl": 170,
-            "start_datetime": "2026-05-09T00:00:00Z",
-            "end_datetime": "2026-05-09T23:59:00Z",
-            "remark": "MAMSL, FL",
-            "active_date": "2026-05-09"
         },
         {
             "name": "UNR1285",
