@@ -1,8 +1,8 @@
 {
     "notice_info": {
-        "valid_wef": "2026-07-12T08:21:41Z",
-        "valid_til": "2026-07-12T09:21:41Z",
-        "released_on": "2026-07-12T08:21:41Z"
+        "valid_wef": "2026-07-12T10:35:54Z",
+        "valid_til": "2026-07-12T11:35:54Z",
+        "released_on": "2026-07-12T10:35:54Z"
     },
     "areas": [
         {
@@ -67,15 +67,6 @@
             "end_datetime": "2026-07-13T08:00:00Z",
             "remark": "MAMSL",
             "active_date": "2026-07-13"
-        },
-        {
-            "name": "UNR1144",
-            "minimum_fl": 0,
-            "maximum_fl": 22,
-            "start_datetime": "2026-07-12T07:00:00Z",
-            "end_datetime": "2026-07-12T10:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-07-12"
         },
         {
             "name": "UNR1144",
@@ -330,24 +321,6 @@
             "active_date": "2026-07-13"
         },
         {
-            "name": "UNR2080",
-            "minimum_fl": 0,
-            "maximum_fl": 265,
-            "start_datetime": "2026-07-12T00:00:00Z",
-            "end_datetime": "2026-07-12T23:59:00Z",
-            "remark": "FL",
-            "active_date": "2026-07-12"
-        },
-        {
-            "name": "UNR2080",
-            "minimum_fl": 0,
-            "maximum_fl": 265,
-            "start_datetime": "2026-07-13T07:00:00Z",
-            "end_datetime": "2026-07-13T17:59:00Z",
-            "remark": "FL",
-            "active_date": "2026-07-13"
-        },
-        {
             "name": "UNR2081",
             "minimum_fl": 110,
             "maximum_fl": 610,
@@ -589,15 +562,6 @@
             "end_datetime": "2026-07-13T10:00:00Z",
             "remark": "MAGL",
             "active_date": "2026-07-13"
-        },
-        {
-            "name": "UNR1936",
-            "minimum_fl": 0,
-            "maximum_fl": 16,
-            "start_datetime": "2026-07-12T05:00:00Z",
-            "end_datetime": "2026-07-12T10:00:00Z",
-            "remark": "MAGL",
-            "active_date": "2026-07-12"
         },
         {
             "name": "UNR1936",
