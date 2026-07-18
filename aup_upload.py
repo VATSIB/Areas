@@ -42,12 +42,17 @@ def fetch_xml_data():
     if use_proxy:
         http_proxy = os.getenv("HTTP_PROXY", "").strip()
         https_proxy = os.getenv("HTTPS_PROXY", "").strip()
-        if http_proxy and https_proxy:
-            proxy_settings = {"http": http_proxy, "https": https_proxy}
-        elif http_proxy:
-            proxy_settings = {"http": http_proxy, "https": http_proxy}
+
+        if http_proxy:
+            proxy_settings = {
+                "http": http_proxy,
+                "https": https_proxy if https_proxy else http_proxy
+            }
+
+            if http_proxy.startswith(("socks5://", "socks5h://")):
+                print("🧦 Используется SOCKS5 прокси")
         else:
-            print("⚠️  USE_PROXY=true, но HTTP_PROXY/HTTPS_PROXY не заданы. Используем прямое соединение.")
+            print("⚠️ USE_PROXY=true, но HTTP_PROXY/HTTPS_PROXY не заданы. Используем прямое соединение.")
             use_proxy = False
 
     headers = {
