@@ -1,8 +1,8 @@
 {
     "notice_info": {
-        "valid_wef": "2026-08-04T05:49:43Z",
-        "valid_til": "2026-08-04T06:49:43Z",
-        "released_on": "2026-08-04T05:49:43Z"
+        "valid_wef": "2026-08-04T08:17:48Z",
+        "valid_til": "2026-08-04T09:17:48Z",
+        "released_on": "2026-08-04T08:17:48Z"
     },
     "areas": [
         {
@@ -42,15 +42,6 @@
             "active_date": "2026-08-04"
         },
         {
-            "name": "UNR1132",
-            "minimum_fl": 0,
-            "maximum_fl": 29,
-            "start_datetime": "2026-08-04T02:00:00Z",
-            "end_datetime": "2026-08-04T08:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-08-04"
-        },
-        {
             "name": "UNR1144",
             "minimum_fl": 0,
             "maximum_fl": 22,
@@ -65,15 +56,6 @@
             "maximum_fl": 42,
             "start_datetime": "2026-08-04T04:00:00Z",
             "end_datetime": "2026-08-04T11:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-08-04"
-        },
-        {
-            "name": "UNR1177",
-            "minimum_fl": 0,
-            "maximum_fl": 47,
-            "start_datetime": "2026-08-04T01:00:00Z",
-            "end_datetime": "2026-08-04T08:00:00Z",
             "remark": "MAMSL",
             "active_date": "2026-08-04"
         },
@@ -128,15 +110,6 @@
             "maximum_fl": 70,
             "start_datetime": "2026-08-04T04:00:00Z",
             "end_datetime": "2026-08-04T11:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-08-04"
-        },
-        {
-            "name": "UNR1270",
-            "minimum_fl": 0,
-            "maximum_fl": 75,
-            "start_datetime": "2026-08-04T04:00:00Z",
-            "end_datetime": "2026-08-04T06:00:00Z",
             "remark": "MAMSL",
             "active_date": "2026-08-04"
         },
@@ -381,24 +354,6 @@
             "start_datetime": "2026-08-05T02:00:00Z",
             "end_datetime": "2026-08-05T17:00:00Z",
             "remark": "FL",
-            "active_date": "2026-08-05"
-        },
-        {
-            "name": "UNR1196",
-            "minimum_fl": 3,
-            "maximum_fl": 593,
-            "start_datetime": "2026-08-05T03:00:00Z",
-            "end_datetime": "2026-08-05T15:30:00Z",
-            "remark": "MAGL",
-            "active_date": "2026-08-05"
-        },
-        {
-            "name": "UNR1197",
-            "minimum_fl": 32,
-            "maximum_fl": 364,
-            "start_datetime": "2026-08-05T03:00:00Z",
-            "end_datetime": "2026-08-05T15:30:00Z",
-            "remark": "MAGL",
             "active_date": "2026-08-05"
         },
         {
