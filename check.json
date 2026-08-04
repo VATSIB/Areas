@@ -3,8 +3,8 @@
 
     "update": {
         "available": true,
-        "mandatory": true,
-        "deadline": "2026-08-01"
+        "mandatory": false,
+        "deadline": ""
     },
 
     "messages": {
