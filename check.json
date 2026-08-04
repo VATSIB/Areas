@@ -1,10 +1,10 @@
 {
-    "latest_version": "0.0.1",
+    "latest_version": "0.0.2",
 
     "update": {
         "available": true,
-        "mandatory": false,
-        "deadline": ""
+        "mandatory": true,
+        "deadline": "2026-08-01"
     },
 
     "messages": {
