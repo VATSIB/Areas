@@ -3,7 +3,7 @@
 
     "update": {
         "available": true,
-        "mandatory": false,
+        "mandatory": true,
         "deadline": "2026-09-01"
     },
 
