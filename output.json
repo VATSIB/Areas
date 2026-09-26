@@ -1,8 +1,8 @@
 {
     "notice_info": {
-        "valid_wef": "2026-09-26T11:01:16Z",
-        "valid_til": "2026-09-26T12:01:16Z",
-        "released_on": "2026-09-26T11:01:16Z"
+        "valid_wef": "2026-09-26T16:01:10Z",
+        "valid_til": "2026-09-26T17:01:10Z",
+        "released_on": "2026-09-26T16:01:10Z"
     },
     "areas": [
         {
@@ -81,28 +81,10 @@
             "name": "UNR1181",
             "minimum_fl": 0,
             "maximum_fl": 52,
-            "start_datetime": "2026-09-26T04:00:00Z",
-            "end_datetime": "2026-09-26T12:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-09-26"
-        },
-        {
-            "name": "UNR1181",
-            "minimum_fl": 0,
-            "maximum_fl": 52,
             "start_datetime": "2026-09-27T04:00:00Z",
             "end_datetime": "2026-09-27T12:00:00Z",
             "remark": "MAMSL",
             "active_date": "2026-09-27"
-        },
-        {
-            "name": "UNR1182",
-            "minimum_fl": 0,
-            "maximum_fl": 52,
-            "start_datetime": "2026-09-26T04:00:00Z",
-            "end_datetime": "2026-09-26T12:00:00Z",
-            "remark": "MAMSL",
-            "active_date": "2026-09-26"
         },
         {
             "name": "UNR1182",
@@ -175,15 +157,6 @@
             "end_datetime": "2026-09-27T17:55:00Z",
             "remark": "MAMSL",
             "active_date": "2026-09-27"
-        },
-        {
-            "name": "UNR1136",
-            "minimum_fl": 0,
-            "maximum_fl": 259,
-            "start_datetime": "2026-09-26T01:00:00Z",
-            "end_datetime": "2026-09-26T19:00:00Z",
-            "remark": "MAGL",
-            "active_date": "2026-09-26"
         },
         {
             "name": "UNR1136",
@@ -264,15 +237,6 @@
             "start_datetime": "2026-09-26T01:00:00Z",
             "end_datetime": "2026-09-26T17:00:00Z",
             "remark": "MAGL",
-            "active_date": "2026-09-26"
-        },
-        {
-            "name": "UNR1280",
-            "minimum_fl": 0,
-            "maximum_fl": 170,
-            "start_datetime": "2026-09-26T15:00:00Z",
-            "end_datetime": "2026-09-26T23:59:00Z",
-            "remark": "FL",
             "active_date": "2026-09-26"
         }
     ]
